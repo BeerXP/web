@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/BeerXP/web.svg?branch=master)](https://travis-ci.com/BeerXP/web)
 [![code factor](https://www.codefactor.io/repository/github/beerxp/web/badge?style=flat-square)](https://www.codefactor.io/repository/github/beerxp/web/badge?style=flat-square)
+[![Maintainability](https://api.codeclimate.com/v1/badges/9b293be1db05b20c08fc/maintainability)](https://codeclimate.com/github/BeerXP/web/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/9b293be1db05b20c08fc/test_coverage)](https://codeclimate.com/github/BeerXP/web/test_coverage)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
