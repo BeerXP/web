@@ -4,11 +4,12 @@ node_js:
 branches:
     only:
         - master
-before_script:
-    - npm install -g firebase-tools
-    - npm install -g preact-cli
-    - npm install
+script:
+    -
 deploy:
     provider: firebase
     token:
         secure: xrUjYkLgRXs16GkGxQzWvObBaAZuIAn3DsfEVNqfXoqcBBfkFMtC9nPKOoVSWK28XUQ9C3cGComu3Qfn8hSN53xBd6EQBuSvvGEXcKpBS5AzCfN1cFXlD7QWgMfAyaXR9GZHII/A39IRomHawkttNhkhRv9nt+YlMnbeG3xDB9wOB1vwn5aZIog0fb+7J6l5UbSLCKiENenJAo1j9KyBb5NDd7GZVx8KegLQuQb+U4Fu3I8xDSN44vKiF3L9T4hHrkm4GmoSzrybRuRfTPitSYUAdUxyXsvBNyNwPVJrWTLQ5At5Ou7m/VbS8D3XzeCx2v5ykgNYTIPL0KlS+PkwbsKSloPpNpW9FFtjlkC8jM7fI/0nbnYcu9LaN/QbnDVX8LA59NJw9IQWNTBYyYcwX8+R3Dz6uVkX0WjBnPpptjvXa+5Rbf/CWi9i+cfeMWOhwFUB3z/hXss/ULqhm5GrQzfFNfp60E+NtFvccEeK4Bm88H9xrG8vS9ZKNUpXAGCX9WUPpgEbJpD9dWrD7SiX23yzUpvD/o1uhTdU0FJe4zEj9d4Bg16yvTlQK9QdlFTzXp3JJ74fBstTEqb+o7PuCenJYpYgTeVnMqHCBJjlTy1jZqhHRBmhxM+EOpNOQZA5mtdxt7UC9OTrR/d15FVCDjkCSf+DnQd1A+Q9P3Z0LPQ=
+notifications:
+    slack:
+        secure: KS2h2OOb/WPPn0l9DTYGAZNiYMH8VhmwOhvV99kKAoVLB7es4pxiv/FOc+j1c7u8BlYW9FmMXgW21sakEBAINvlOU7LNqER6iVlbSCMpsnkmlIeffyB26yfifNAcCDBVAGPb0NZGlws4pz7q79NCM9GbCTv1VIjfrnnyigq2rmoeN7mT+pih9sMdIFvjwXKGmPfUbtfYml4tw6nQpimN0RLmJ8NFZhkehoxccFCfunkt9phuwXOWb8ST8CsWQvqXFuP49/FTQJCzUQ6blViFYiUlvuj4WgqBfTaDIcCFndPQk3Jv4CrgLAIeu07lTCHY5Wnq5Y5CEHzNkMgy5GHdb5TYb0xXWa1G0dPWwo4dsLhk6WnXA6KFfR2SiK60I+Tu9TgYVYvn+NX/U2z57MhdXIRK5DGt2/L2RuUbJcWYuaag41WB2O6oQARQXWe3TTdDQi9+Orz2/YoH2plCr2KgaOwkDLJAn6YgBMRaL+mLdtc4IPvPMIONH1RwW4V/H/D6QsM9eXVLZwdC89jD1nEclAoc8kW0xSCwofSC2DyCOjtxN/zA043kca4/JVIIbFcVMY9FQWIg9FkfEtcHjULRygSkwi9i4A8ve5nlIUtp5Kze4IK/3/gQSTDkno6icqMq9Giafd//pgz6i/I7iRMT6kqaWbxuLbbnkDI30HHID00=
