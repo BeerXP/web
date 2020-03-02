@@ -7,7 +7,7 @@ branches:
     only:
         - master
 script:
-    -
+    - echo "Skipping tests"
 deploy:
     provider: firebase
     edge: true
