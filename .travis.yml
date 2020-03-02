@@ -4,8 +4,10 @@ node_js:
 branches:
     only:
         - master
-script:
-    - echo "Skipping tests"
+install:
+    - yarn install
+build:
+    - yarn run build
 deploy:
     provider: firebase
     cleanup: true
