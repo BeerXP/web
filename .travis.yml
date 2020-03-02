@@ -8,6 +8,10 @@ branches:
         - master
 script:
     - echo "Skipping tests"
+
+before_deploy:
+    - "firebase use default"
+
 deploy:
     provider: firebase
     edge: true
