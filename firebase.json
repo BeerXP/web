@@ -1,4 +1,7 @@
 {
+	"projects": {
+		"default": "beerxp-dev"
+	},
 	"hosting": {
 		"public": "build", // "public" is the only required attribute for Hosting
 		"cleanUrls": true, // The cleanUrls attribute allows you to control whether or not URLs should include the .html extension

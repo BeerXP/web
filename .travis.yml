@@ -5,7 +5,7 @@ branches:
     only:
         - master
 script:
-    - echo "Skipping tests"
+    - npm install
 deploy:
     provider: firebase
     edge: true
