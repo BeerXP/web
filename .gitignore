@@ -3,7 +3,7 @@
 # Edit at https://www.gitignore.io/?templates=git,node,react,dotenv,firebase,reactnative,visualstudiocode
 
 ### dotenv ###
-.env
+# .env
 
 ### Firebase ###
 .idea
