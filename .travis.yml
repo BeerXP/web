@@ -13,6 +13,10 @@ after_success:
     - ls -l
 before_deploy:
     - ls -l
+after_deploy:
+    - ls -l
+after_script:
+    - ls -l
 deploy:
     provider: firebase
     cleanup: true
