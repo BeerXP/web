@@ -11,6 +11,8 @@ script:
     - CI=false npm run build
 after_success:
     - ls -l
+before_deploy:
+    - ls -l
 deploy:
     provider: firebase
     cleanup: true
