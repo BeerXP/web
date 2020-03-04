@@ -145,7 +145,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"deploy": "npm run build && firebase deploy",
+		"deploy": "yarn run build && firebase deploy",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
