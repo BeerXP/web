@@ -9,19 +9,12 @@ install:
     - yarn install
 script:
     - CI=false npm run build
-after_success:
-    - ls -l
-before_deploy:
-    - cd build && ls -l
-after_deploy:
-    - ls -l
-after_script:
-    - ls -l
 deploy:
     provider: firebase
     cleanup: true
     edge: true
     project: beerxp-dev
+    run: ls -l
     token:
         secure: ACYquiGraxYkNzPmmXaB1TkiU1Fi97HWzeHQEI6oIXpjS5I8JrcBUbAYGr2LfV/132gk9Np/z0Eixene5rOEPa+5lx05m4BtaXqktUh18zqUf3vt3lFWyfinoFNl/YWDkPrp3D+rPColvUl6FSx/fhK7IOS1WOAyMXzUh/MKm+cEtqzcBM1jYxwp5EArllIiQAVeef8y9lzx01XFp+ovtmZCFQb9eS+j6oLEIjumHXdOoXNapNToTKM4rHodtDLPvJrh9KtFHtUEnZJAwxgOA0N6yVFV8fwvesqA4YZkz5hfPR+HEXHgB+wgdKGoAtCC9eYcPvy/KlDacsT4tT2w8usm2ZyLfmdAZIDBOBq1rzDegbrG/babjtgrS4LiQxtjvIuUpsOOsaZI+jvttQqkbY2sV7t4P0e3JqfjYz+sWrBNNTfP2GZ2WHXEFSWfDIr1hcywtzzkJMyJEL67UTfFTvz4Q/7PISaL3WIPmTlCSBED7VjfNovCJiXQlQw03h/S5reYWmuw+VqoOhzDIqclw4gCaRkIDUleUirMfQrN5fxkdHA6jhjhiHaC/lzXROPDyyQBlFuL6VEBvD3qNwjErKfYegH9Bz0CQIyTQEKJbbMh445/nVrBt3tvjfr9HfPA+jX77CMvpWV06IEPEPz9xJM0KnMCVrLws1CEyHGNkj4=
 notifications:
