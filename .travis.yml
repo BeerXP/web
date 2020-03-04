@@ -9,6 +9,8 @@ install:
     - yarn install
 script:
     - CI=false npm run build
+after_success:
+    - ls -l
 deploy:
     provider: firebase
     cleanup: true
