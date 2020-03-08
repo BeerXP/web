@@ -2,6 +2,13 @@
 # Created by https://www.gitignore.io/api/git,node,react,dotenv,firebase,reactnative,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=git,node,react,dotenv,firebase,reactnative,visualstudiocode
 
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 ### dotenv ###
 # .env
 
