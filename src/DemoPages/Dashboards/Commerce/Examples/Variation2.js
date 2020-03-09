@@ -20,7 +20,7 @@ import {
     ListGroup,
 } from 'reactstrap';
 
-import Ionicon from 'react-ionicons';
+import IosKeypadOutline from 'react-ionicons/lib/IosKeypadOutline';
 import Slider from "react-slick";
 
 import CountUp from 'react-countup';
@@ -706,7 +706,7 @@ export default class CommerceDashboard2 extends Component {
                                     <Button size="sm" className="btn-icon btn-icon-only" color="light"
                                             id={'PopoverCustomT-1'}
                                             onClick={this.togglePop1}>
-                                        <Ionicon color="#484d52" icon="ios-keypad-outline"/>
+                                        <IosKeypadOutline color="#484d52" icon="ios-keypad-outline"/>
                                     </Button>
                                     <Popover className="popover-custom rm-pointers" placement="auto"
                                              isOpen={this.state.popoverOpen1}
@@ -797,7 +797,7 @@ export default class CommerceDashboard2 extends Component {
                                     <Button size="sm" className="btn-icon btn-icon-only" color="light"
                                             id={'PopoverCustomT-2'}
                                             onClick={this.togglePop2}>
-                                        <Ionicon color="#484d52" icon="ios-keypad-outline"/>
+                                        <IosKeypadOutline color="#484d52" icon="ios-keypad-outline"/>
                                     </Button>
                                     <Popover className="popover-custom rm-pointers" placement="auto"
                                              isOpen={this.state.popoverOpen2}
@@ -888,7 +888,7 @@ export default class CommerceDashboard2 extends Component {
                                     <Button size="sm" className="btn-icon btn-icon-only" color="light"
                                             id={'PopoverCustomT-3'}
                                             onClick={this.togglePop3}>
-                                        <Ionicon color="#484d52" icon="ios-keypad-outline"/>
+                                        <IosKeypadOutline color="#484d52" icon="ios-keypad-outline"/>
                                     </Button>
                                     <Popover className="popover-custom rm-pointers" placement="auto"
                                              isOpen={this.state.popoverOpen3}
@@ -980,7 +980,7 @@ export default class CommerceDashboard2 extends Component {
                                     <Button size="sm" className="btn-icon btn-icon-only" color="light"
                                             id={'PopoverCustomT-4'}
                                             onClick={this.togglePop4}>
-                                        <Ionicon color="#484d52" icon="ios-keypad-outline"/>
+                                        <IosKeypadOutline color="#484d52" icon="ios-keypad-outline"/>
                                     </Button>
                                     <Popover className="popover-custom rm-pointers" placement="auto"
                                              isOpen={this.state.popoverOpen4}

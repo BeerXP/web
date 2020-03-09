@@ -24,7 +24,8 @@ import ReactTable from "react-table";
 import avatar1 from '../../../../assets/utils/images/avatars/1.jpg';
 import avatar2 from '../../../../assets/utils/images/avatars/2.jpg';
 
-import Ionicon from 'react-ionicons';
+import IosAnalyticsOutline from "react-ionicons/lib/IosAnalyticsOutline";
+import IosAppsOutline from "react-ionicons/lib/IosAppsOutline";
 
 import PerfectScrollbar from 'react-perfect-scrollbar';
 
@@ -234,7 +235,7 @@ export default class AnalyticsDashboard2 extends Component {
                     <div className="text-center mbg-3">
                         <Button color="focus" className="btn-wide btn-pill btn-shadow fsize-1" size="lg">
                         <span className="mr-2 opacity-7">
-                            <Ionicon color="#ffffff" icon="ios-analytics-outline" beat={true}/>
+                            <IosAnalyticsOutline color="#ffffff" icon="ios-analytics-outline" beat={true}/>
                         </span>
                             View Complete Report
                         </Button>
@@ -251,7 +252,7 @@ export default class AnalyticsDashboard2 extends Component {
                                         <UncontrolledButtonDropdown>
                                             <DropdownToggle className="btn-icon btn-icon-only" color="link">
                                                 <div className="btn-icon-wrapper">
-                                                    <Ionicon icon="ios-apps-outline"/>
+                                                    <IosAppsOutline icon="ios-apps-outline"/>
                                                 </div>
                                             </DropdownToggle>
                                             <DropdownMenu className="dropdown-menu-shadow dropdown-menu-hover-link">
