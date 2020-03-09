@@ -1,5 +1,3 @@
-os: windows
-
 language: node_js
 
 cache: npm
@@ -8,7 +6,7 @@ node_js:
     - node
 
 git:
-    autocrlf: false
+    autocrlf: input
 
 branches:
     only:
