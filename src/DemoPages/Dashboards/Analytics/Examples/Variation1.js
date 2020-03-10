@@ -114,8 +114,7 @@ function boxMullerRandom() {
 	let phase = false,
 		x1,
 		x2,
-		w,
-		z;
+		w;
 
 	return (function() {
 		if ((phase = !phase)) {
@@ -709,9 +708,7 @@ export default class AnalyticsDashboard1 extends Component {
 													<p>
 														Lorem ipsum dolor sic
 														amet, today at{' '}
-														<a href='javascript:void(0);'>
-															12:00 PM
-														</a>
+														<a href='#top'>12:00 PM</a>
 													</p>
 												</VerticalTimelineElement>
 												<VerticalTimelineElement
@@ -793,9 +790,7 @@ export default class AnalyticsDashboard1 extends Component {
 													<p>
 														Lorem ipsum dolor sic
 														amet, today at{' '}
-														<a href='javascript:void(0);'>
-															12:00 PM
-														</a>
+														<a href='#top'>12:00 PM</a>
 													</p>
 												</VerticalTimelineElement>
 												<VerticalTimelineElement
@@ -877,9 +872,7 @@ export default class AnalyticsDashboard1 extends Component {
 													<p>
 														Lorem ipsum dolor sic
 														amet, today at{' '}
-														<a href='javascript:void(0);'>
-															12:00 PM
-														</a>
+														<a href='#top'>12:00 PM</a>
 													</p>
 												</VerticalTimelineElement>
 												<VerticalTimelineElement

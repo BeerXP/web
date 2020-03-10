@@ -10,7 +10,6 @@ import {
 } from 'reactstrap';
 
 import {
-    faAngleUp,
     faCommentDots,
     faBullhorn,
 } from '@fortawesome/free-solid-svg-icons';
@@ -53,7 +52,7 @@ export default class TabsExample extends React.Component {
                                     <CardHeader className="tabs-lg-alternate">
                                         <Nav justified>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab === '1'})}
                                                          onClick={() => {
                                                              this.toggle('1');
@@ -71,7 +70,7 @@ export default class TabsExample extends React.Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab === '2'})}
                                                          onClick={() => {
                                                              this.toggle('2');
@@ -86,7 +85,7 @@ export default class TabsExample extends React.Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab === '3'})}
                                                          onClick={() => {
                                                              this.toggle('3');
@@ -149,7 +148,7 @@ export default class TabsExample extends React.Component {
                                         <CardTitle>Basic</CardTitle>
                                         <Nav tabs="true">
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab === '1'})}
                                                          onClick={() => {
                                                              this.toggle('1');
@@ -159,7 +158,7 @@ export default class TabsExample extends React.Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab === '2'})}
                                                          onClick={() => {
                                                              this.toggle('2');
@@ -169,7 +168,7 @@ export default class TabsExample extends React.Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab === '3'})}
                                                          onClick={() => {
                                                              this.toggle('3');
@@ -214,7 +213,7 @@ export default class TabsExample extends React.Component {
                                         <CardTitle>Justified Alignment</CardTitle>
                                         <Nav tabs="true" justified>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab === '1'})}
                                                          onClick={() => {
                                                              this.toggle('1');
@@ -224,7 +223,7 @@ export default class TabsExample extends React.Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab === '2'})}
                                                          onClick={() => {
                                                              this.toggle('2');
@@ -234,7 +233,7 @@ export default class TabsExample extends React.Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab === '3'})}
                                                          onClick={() => {
                                                              this.toggle('3');
@@ -336,7 +335,7 @@ export default class TabsExample extends React.Component {
                                         <CardTitle>Pills</CardTitle>
                                         <Nav pills>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab === '1'})}
                                                          onClick={() => {
                                                              this.toggle('1');
@@ -346,7 +345,7 @@ export default class TabsExample extends React.Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab === '2'})}
                                                          onClick={() => {
                                                              this.toggle('2');
@@ -356,7 +355,7 @@ export default class TabsExample extends React.Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab === '3'})}
                                                          onClick={() => {
                                                              this.toggle('3');
@@ -401,7 +400,7 @@ export default class TabsExample extends React.Component {
                                         <CardTitle>Pills</CardTitle>
                                         <Nav pills fill>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab === '1'})}
                                                          onClick={() => {
                                                              this.toggle('1');
@@ -411,7 +410,7 @@ export default class TabsExample extends React.Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab === '2'})}
                                                          onClick={() => {
                                                              this.toggle('2');
@@ -421,7 +420,7 @@ export default class TabsExample extends React.Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);"
+                                                <NavLink href="#"
                                                          className={classnames({active: this.state.activeTab === '3'})}
                                                          onClick={() => {
                                                              this.toggle('3');

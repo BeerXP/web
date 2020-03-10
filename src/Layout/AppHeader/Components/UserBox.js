@@ -131,7 +131,7 @@ class UserBox extends React.Component {
 														Activity
 													</NavItem>
 													<NavItem>
-														<NavLink href='javascript:void(0);'>
+														<NavLink href='#'>
 															Chat
 															<div className='ml-auto badge badge-pill badge-info'>
 																8
@@ -139,7 +139,7 @@ class UserBox extends React.Component {
 														</NavLink>
 													</NavItem>
 													<NavItem>
-														<NavLink href='javascript:void(0);'>
+														<NavLink href='#'>
 															Recover Password
 														</NavLink>
 													</NavItem>
@@ -147,7 +147,7 @@ class UserBox extends React.Component {
 														My Account
 													</NavItem>
 													<NavItem>
-														<NavLink href='javascript:void(0);'>
+														<NavLink href='#'>
 															Settings
 															<div className='ml-auto badge badge-success'>
 																New
@@ -155,7 +155,7 @@ class UserBox extends React.Component {
 														</NavLink>
 													</NavItem>
 													<NavItem>
-														<NavLink href='javascript:void(0);'>
+														<NavLink href='#'>
 															Messages
 															<div className='ml-auto badge badge-warning'>
 																512
@@ -163,7 +163,7 @@ class UserBox extends React.Component {
 														</NavLink>
 													</NavItem>
 													<NavItem>
-														<NavLink href='javascript:void(0);'>
+														<NavLink href='#'>
 															Logs
 														</NavLink>
 													</NavItem>

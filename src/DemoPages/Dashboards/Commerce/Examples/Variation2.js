@@ -69,11 +69,11 @@ import {
 
 function boxMullerRandom() {
     let phase = false,
-        x1, x2, w, z;
+        x1, x2, w;
 
     return (function () {
 
-        if (phase = !phase) {
+        if (phase === !phase) {
             do {
                 x1 = 2.0 * Math.random() - 1.0;
                 x2 = 2.0 * Math.random() - 1.0;
@@ -732,13 +732,13 @@ export default class CommerceDashboard2 extends Component {
                                                     Activity
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink href="javascript:void(0);">
+                                                    <NavLink href="#">
                                                         Chat
                                                         <div className="ml-auto badge badge-pill badge-info">8</div>
                                                     </NavLink>
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink href="javascript:void(0);">Recover Password</NavLink>
+                                                    <NavLink href="#">Recover Password</NavLink>
                                                 </NavItem>
                                                 <NavItem className="nav-item-divider"/>
                                                 <NavItem className="nav-item-btn text-center">
@@ -823,13 +823,13 @@ export default class CommerceDashboard2 extends Component {
                                                     Activity
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink href="javascript:void(0);">
+                                                    <NavLink href="#">
                                                         Chat
                                                         <div className="ml-auto badge badge-pill badge-info">8</div>
                                                     </NavLink>
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink href="javascript:void(0);">Recover Password</NavLink>
+                                                    <NavLink href="#">Recover Password</NavLink>
                                                 </NavItem>
                                                 <NavItem className="nav-item-divider"/>
                                                 <NavItem className="nav-item-btn d-block text-center">
@@ -914,13 +914,13 @@ export default class CommerceDashboard2 extends Component {
                                                     Activity
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink href="javascript:void(0);">
+                                                    <NavLink href="#">
                                                         Chat
                                                         <div className="ml-auto badge badge-pill badge-info">8</div>
                                                     </NavLink>
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink href="javascript:void(0);">Recover Password</NavLink>
+                                                    <NavLink href="#">Recover Password</NavLink>
                                                 </NavItem>
                                                 <NavItem className="nav-item-divider"/>
                                                 <NavItem className="nav-item-btn text-center">
@@ -1006,13 +1006,13 @@ export default class CommerceDashboard2 extends Component {
                                                     Activity
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink href="javascript:void(0);">
+                                                    <NavLink href="#">
                                                         Chat
                                                         <div className="ml-auto badge badge-pill badge-info">8</div>
                                                     </NavLink>
                                                 </NavItem>
                                                 <NavItem>
-                                                    <NavLink href="javascript:void(0);">Recover Password</NavLink>
+                                                    <NavLink href="#">Recover Password</NavLink>
                                                 </NavItem>
                                                 <NavItem className="nav-item-divider"/>
                                                 <NavItem className="nav-item-btn text-center">
