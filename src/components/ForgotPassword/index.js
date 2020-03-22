@@ -8,7 +8,7 @@ import bg3 from '../../../assets/utils/images/originals/citynights.jpg';
 
 import { Col, Row, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
-export default class Login extends Component {
+export default class ForgotPassword extends Component {
 	render() {
 		let settings = {
 			dots: true,
@@ -96,27 +96,22 @@ export default class Login extends Component {
 							className='h-100 d-flex bg-white justify-content-center align-items-center'
 						>
 							<Col
-								lg='9'
-								md='10'
+								lg='6'
+								md='8'
 								sm='12'
 								className='mx-auto app-login-box'
 							>
 								<div className='app-logo' />
-								<h4 className='mb-0'>
-									<div>Welcome back,</div>
-									<span>Please sign in to your account.</span>
+								<h4>
+									<div>Forgot your Password?</div>
+									<span>
+										Use the form below to recover it.
+									</span>
 								</h4>
-								<h6 className='mt-3'>
-									No account?{' '}
-									<a href='#top' className='text-primary'>
-										Sign up now
-									</a>
-								</h6>
-								<Row className='divider' />
 								<div>
 									<Form>
 										<Row form>
-											<Col md={6}>
+											<Col md={12}>
 												<FormGroup>
 													<Label for='exampleEmail'>
 														Email
@@ -129,44 +124,22 @@ export default class Login extends Component {
 													/>
 												</FormGroup>
 											</Col>
-											<Col md={6}>
-												<FormGroup>
-													<Label for='examplePassword'>
-														Password
-													</Label>
-													<Input
-														type='password'
-														name='password'
-														id='examplePassword'
-														placeholder='Password here...'
-													/>
-												</FormGroup>
-											</Col>
 										</Row>
-										<FormGroup check>
-											<Input
-												type='checkbox'
-												name='check'
-												id='exampleCheck'
-											/>
-											<Label for='exampleCheck' check>
-												Keep me logged in
-											</Label>
-										</FormGroup>
-										<Row className='divider' />
-										<div className='d-flex align-items-center'>
-											<div className='ml-auto'>
+										<div className='mt-4 d-flex align-items-center'>
+											<h6 className='mb-0'>
 												<a
 													href='#top'
-													className='btn-lg btn btn-link'
+													className='text-primary'
 												>
-													Recover Password
-												</a>{' '}
+													Sign in existing account
+												</a>
+											</h6>
+											<div className='ml-auto'>
 												<Button
 													color='primary'
 													size='lg'
 												>
-													Login to Dashboard
+													Recover Password
 												</Button>
 											</div>
 										</div>
