@@ -4,7 +4,7 @@ import Loader from 'react-loaders';
 
 import { ToastContainer } from 'react-toastify';
 
-const UserPages = lazy(() => import('../../DemoPages/UserPages'));
+const UserPages = lazy(() => import('../../components/UserPages'));
 const Applications = lazy(() => import('../../DemoPages/Applications'));
 const Dashboards = lazy(() => import('../../DemoPages/Dashboards'));
 

@@ -18,7 +18,7 @@ const rootElement = document.getElementById('root');
 
 // useEffect(() => {
 // 	// Initialize Firebase
-// 	firebase.initializeApp(config);
+firebase.initializeApp(config);
 // });
 
 const renderApp = Component => {
